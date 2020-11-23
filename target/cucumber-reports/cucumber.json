@@ -1,0 +1,106 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "To verify Login function",
+        "description": "",
+        "id": "login-function-for-magnushealth-application;to-verify-login-function;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16841383800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "magnushealth Application is Launch",
+            "match": {
+              "location": "LoginTestCase.magnushealth_Application_is_Launch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 333740400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters valid UserName \"n.sharma-reseller\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "n.sharma-reseller",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginTestCase.user_enters_valid_UserName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 216589300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters valid Password \"Magnushealth@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Magnushealth@123",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginTestCase.user_enters_valid_Password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2873240100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "LoginTestCase.user_click_on_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114451400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User close the Browser",
+            "match": {
+              "location": "LoginTestCase.user_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@LoginTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login function for Magnushealth Application",
+    "description": "",
+    "id": "login-function-for-magnushealth-application",
+    "keyword": "Feature",
+    "uri": "LoginTest.feature"
+  }
+]

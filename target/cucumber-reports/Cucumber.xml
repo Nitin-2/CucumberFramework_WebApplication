@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.379405">
+<testcase classname="Login function for Magnushealth Application" name="To verify Login function" time="20.379405">
+<system-out><![CDATA[When magnushealth Application is Launch.....................................passed
+Then User enters valid UserName "n.sharma-reseller".........................passed
+Then User enters valid Password "Magnushealth@123"..........................passed
+Then User click on Login button.............................................passed
+Then User close the Browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
